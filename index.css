@@ -1,0 +1,25 @@
+
+.container{
+    background-image: url("images/image2.png");
+}
+.container img{
+float: left;
+margin: 0 0;
+}
+.container h6{
+    color: #F19201;
+    padding-top: 40px;
+    margin-left: 5px;
+}
+.navbar{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+
+}
+#list{
+    text-align: left;
+}
+#list>ul>li{
+    display: inline-block;
+}
