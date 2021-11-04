@@ -8,18 +8,22 @@ margin: 0 0;
 }
 .container h6{
     color: #F19201;
-    padding-top: 40px;
+    padding-top: 50px;
     margin-left: 5px;
 }
-.navbar{
-    width: 100%;
-    margin: 0 auto;
-    padding: 10px 0;
-
-}
 #list{
-    text-align: left;
+    text-align: center;
+    float: right;
+    
 }
 #list>ul>li{
     display: inline-block;
+    margin: 0 0 10px 10px;
+    padding:0;
+    
+}
+#list>ul>li>a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
 }
