@@ -138,6 +138,7 @@ nav>ul>li>a:hover{
 .chap-beef{
     display: flex;
     justify-content: space-around;
+    padding: 20px;
 }
 .chic-rice{
     display: flex;
@@ -175,6 +176,19 @@ nav>ul>li>a:hover{
     float: left;
     margin: 20px 0 0 20px;
 }
-/*
+.Book{
+    background-image: url("images/image8.png");
+    background-size: 100% 100%;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+}
+#text{
+    padding-top: 80px;
+}
+#text button{
+    background: none;
+    color: #fff;
+}
 
 
