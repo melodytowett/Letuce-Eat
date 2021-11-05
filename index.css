@@ -143,6 +143,27 @@ nav>ul>li>a:hover{
     display: flex;
     justify-content: space-around;
 }
+.Chapati{
+    background-color: #fff;
+    border: 5px ;
+    height: 400px;
+    display: flex;
+}
+#chapati-img{
+    float: left;
+    margin: 20px 0 0 20px;
+}
+.sec-chapati{
+    float: right;
+    margin: 20px 10px 0 5px;
+}
+.Menu h6{
+    color: #F19201;
+}
+.Menu button{
+    width: 100px;
+}
+
 /*
 
 
