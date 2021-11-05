@@ -142,18 +142,19 @@ nav>ul>li>a:hover{
 .chic-rice{
     display: flex;
     justify-content: space-around;
+    padding: 20px;
 }
-.Chapati{
+.Chapati ,.Beef{
     background-color: #fff;
     border: 5px ;
     height: 400px;
     display: flex;
 }
-#chapati-img{
+#chapati-img , #beef-img{
     float: left;
     margin: 20px 0 0 20px;
 }
-.sec-chapati{
+.sec-chapati , .sec-beef{
     float: right;
     margin: 20px 10px 0 5px;
 }
@@ -164,6 +165,16 @@ nav>ul>li>a:hover{
     width: 100px;
 }
 
+.Chicken, .Rice{
+    background-color: #fff;
+    border: 5px ;
+    height: 400px;
+    display: flex;
+}
+#chicken-img,#rice-img{
+    float: left;
+    margin: 20px 0 0 20px;
+}
 /*
 
 
