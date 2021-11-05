@@ -1,4 +1,6 @@
-
+*{
+  
+}
 .container{
     background-image: url("images/image2.png");
     background-size: 100% 100%;
@@ -59,6 +61,7 @@ nav>ul>li>a:hover{
 }
 .Container-1{
     background-color: aliceblue;
+    height: 100%;
 }
 .Container-1>h3{
     color: #F19201;
@@ -67,6 +70,43 @@ nav>ul>li>a:hover{
 .Container-1>p{
     color: black;
     text-align: center;
+}
+.services{
+    border-radius: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.services>#first{
+    text-align: center;
+    background-color: #fff;
+    border: 5px ;
+    height: 200px;
+}
+.services>#second{
+    text-align: center;
+    background-color: #fff;
+    border: 5px ;
+    height: 200px;
+}
+.services>#third{
+    text-align: center;
+    background-color: #fff;
+    border: 5px ;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.services h3{
+   color: #fff;
+   background: #F19201;
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+   margin-left: 40%;
+   justify-content: center;
+}
+.services h6{
+    text-shadow: 1px 1px 2px black;
 }
 /*
 
