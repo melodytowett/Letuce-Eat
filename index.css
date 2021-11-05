@@ -1,6 +1,9 @@
 
 .container{
     background-image: url("images/image2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px;
 }
 .container img{
 float: left;
@@ -11,31 +14,39 @@ margin: 0 0;
     padding-top: 50px;
     margin-left: 5px;
 }
-#list{
+.navbar>nav{
     text-align: center;
     float: right;
     position: relative;
-    height: 50px;
-    top: -80px;
-    right: 5px;
-    width: 70%;
-    background-color: black;
+    background: #646362;
+    background-size: 50px;
+    top: -90px;
     opacity: 0.5;
+    width: 50%;
     
 }
-#list>ul>li{
+nav>ul>li{
+    display: inline;
+}
+
+nav>ul>li>a{
     display: inline-block;
-    margin: 0 0 10px 10px; 
-    
-}
-#list>ul>li>a{
-    display: block;
     text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
     color: #fff;
+    font-weight: bold;
 }
-#list>ul>#home>a{
+nav>ul>#home>a{
     color: #F19201;
 }
+nav>ul>li>a:hover{
+    background: #F19201;
+
+}
+
+/*
+
 #list>ul>#moringa>a{
     background: #F19201;
 }
@@ -43,4 +54,4 @@ margin: 0 0;
     float: left;
     text-align: center;
     color: white;
-}
+}*/
