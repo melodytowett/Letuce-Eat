@@ -108,6 +108,24 @@ nav>ul>li>a:hover{
 .services h6{
     text-shadow: 1px 1px 2px black;
 }
+.container-2{
+    background-color: black;
+    display: flex;
+}
+.container-2#img{
+    float: left;
+    width: 50%;
+}
+.Rev-column{
+    float: right;
+    text-align: center;
+    margin: 40px 200px;
+    color: #fff;
+   
+}
+.Menu{
+    background-color: aliceblue;
+}
 /*
 
 
