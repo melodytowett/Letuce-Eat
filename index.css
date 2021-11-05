@@ -1,5 +1,5 @@
 *{
-  
+  font-family: 'roboto';
 }
 .container{
     background-image: url("images/image2.png");
@@ -125,6 +125,23 @@ nav>ul>li>a:hover{
 }
 .Menu{
     background-color: aliceblue;
+
+}
+#menu>h4{
+    color: #F19201;
+    text-align: center;
+}
+#menu>p{
+    text-align: center;
+    text-shadow: 1px 1px 0.5px black;
+}
+.chap-beef{
+    display: flex;
+    justify-content: space-around;
+}
+.chic-rice{
+    display: flex;
+    justify-content: space-around;
 }
 /*
 
