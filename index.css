@@ -44,14 +44,20 @@ nav>ul>li>a:hover{
     background: #F19201;
 
 }
+.container>#header>h1{
+    text-align: left;
+    color: white;
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+.container>#header>button{
+    background: #F19201;
+    height: 30px;
+    color: #fff;
+    margin-left: 50px;
+}
 
 /*
 
-#list>ul>#moringa>a{
-    background: #F19201;
-}
-.container.header{
-    float: left;
-    text-align: center;
-    color: white;
-}*/
+
