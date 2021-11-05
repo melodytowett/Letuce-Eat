@@ -1,5 +1,6 @@
 *{
   font-family: 'roboto';
+
 }
 .container{
     background-image: url("images/image2.png");
@@ -60,7 +61,7 @@ nav>ul>li>a:hover{
     margin-left: 50px;
 }
 .Container-1{
-    background-color: aliceblue;
+    background-color: rgb(236, 232, 232);
     height: 100%;
 }
 .Container-1>h3{
@@ -124,7 +125,8 @@ nav>ul>li>a:hover{
    
 }
 .Menu{
-    background-color: aliceblue;
+
+    background-color: rgb(236, 232, 232);
 
 }
 #menu>h4{
@@ -148,7 +150,7 @@ nav>ul>li>a:hover{
 .Chapati ,.Beef{
     background-color: #fff;
     border: 5px ;
-    height: 400px;
+    height: 300px;
     display: flex;
 }
 #chapati-img , #beef-img{
@@ -157,7 +159,8 @@ nav>ul>li>a:hover{
 }
 .sec-chapati , .sec-beef{
     float: right;
-    margin: 20px 10px 0 5px;
+    margin: 40px 10px 0 5px;
+
 }
 .Menu h6{
     color: #F19201;
@@ -169,12 +172,17 @@ nav>ul>li>a:hover{
 .Chicken, .Rice{
     background-color: #fff;
     border: 5px ;
-    height: 400px;
+    height: 300px;
     display: flex;
 }
 #chicken-img,#rice-img{
     float: left;
     margin: 20px 0 0 20px;
+}
+.sec-stew , .sec-rice{
+    float: right;
+    margin: 40px 10px 0 5px;
+
 }
 .Book{
     background-image: url("images/image8.png");
@@ -189,6 +197,16 @@ nav>ul>li>a:hover{
 #text button{
     background: none;
     color: #fff;
+}
+.footer{
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding-top: 0;
+    height: 40px;
+}
+.footer p{
+    padding-top: 10px;
 }
 
 
